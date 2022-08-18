@@ -1,0 +1,147 @@
+body{ 
+	background:url(backgrounds/j.jpg) fixed ;
+    vertical-align: 2px;
+    margin: 0 auto;	
+	padding:0;
+    
+}
+#geral{ 
+    width:1200px;
+    height:auto;
+    padding: 0;
+    margin:0 auto;
+
+}
+
+#cabecalho{
+    width: 1200px;
+    height: 200px;
+    float: left;
+    -webkit-animation:cabecalho 60s infinite;
+}
+
+#menu{
+    width:1200px;
+    height:50px;
+    float:left;
+    background: rgb(1, 11, 97);
+}
+
+#conteudo{
+    width: 1200px;
+    height: auto;
+    float: left;
+    background:white;
+    opacity: 90%;
+}
+.conteudo1{
+    width: 1200px;
+    height: auto;
+    float: left;
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.conteudo2{
+    width: 700px;
+    height: 1200px;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    text-align: justify;
+    float: left;
+    margin: 5px 5px;
+
+}
+.conteudo3{
+    width: 450px;
+    height: auto;
+    float: left;
+    margin: 0px 5px;
+    
+}
+.conteudo4{
+    width: 1200px;
+    height: auto;
+    float: center;
+    margin: 0px 5px;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+.texto{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 10px 10px;
+}
+.texto1{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 3px 10px;
+
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+    margin: 5px 5px;
+}
+#rodape{
+    width: 1200px;
+    height: 100px;
+	float:left;
+    background: rgb(6, 138, 161);
+}
+.estampas{
+    width: 600;
+    height: 400px;
+    float: center;
+    border-radius: 15px 15px 15px 15px;
+}
+.quadros{
+    width: 500px;
+    height: 300px;
+    float: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+@-webkit-keyframes cabecalho{
+0%{background:url(cabecalho.jpg);}
+50%{background:url(cabecalho2.jpg);}
+100%{background:url(cabecalho.jpg);}
+}
+
+ul.menu {
+padding:  0;
+margin-left: 8px;
+}
+ul.menu li{
+    display: inline;
+}
+ul.menu li a{
+    background: black;
+    color:blanchedalmond;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px 0 15px 0;
+}
+
+ul.menu li a:hover{
+    background: whitesmoke;
+    color: blue;
+}
+
+.normal{
+    width: 1200px;
+    height: auto;
+}
+#conteudo img:hover{
+    -webkit-transition:0,3s ease-in-out;
+    -webkit-transform: scale(1.2);
+    -webkit-box-shadow: 15px 15px 25px rgba(4, 46, 136, 0.7);
+}
